@@ -1,0 +1,65 @@
+{
+    "layer": "top",     
+    "position": "top",
+    "margin": "3",
+    "modules-left": ["hyprland/workspaces", "hyprland/language"],
+    "modules-center": ["clock"],
+    "modules-right": ["pulseaudio","backlight", "battery","network"],
+
+    //***************************
+    //*  Modules configuration  *
+    //***************************
+
+    "hyprland/workspaces": {
+        "disable-scroll": true,
+    },
+
+    "hyprland/language": {
+        "format-en": "US",
+        "format-ru": "RU",
+	"min-length": 5,
+	"tooltip": false
+    },
+
+    "clock": {
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format": "{:%a, %d %b, %I:%M %p}"
+    },
+
+    "pulseaudio": {
+        "reverse-scrolling": 1,
+        "format": "{volume}% {icon}",
+        "format-muted": " {format_source}",
+        "format-icons": {
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol",
+        "min-length": 13,
+    },
+
+    "backlight": {
+        "device": "intel_backlight",
+        "format": "{percent}% {icon}",
+        "format-icons": [""],
+        "min-length": 7,
+    },
+
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        "format-charging": "{capacity}% 󰂄",
+        "format-alt": "{time} {icon}",        
+	      "format-icons": ["󰁺", "󰁽", "󰂀", "󰁹"],
+	      "on-update": "acpi --battery | cut -d, -f2",
+    },
+
+    "network":{
+        "interface": "wlan0",
+        "format": "{essid} ",
+        "format-diconnected": "Disconnected",
+        "interval": 10,
+    }
+}
