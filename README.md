@@ -16,4 +16,4 @@
 - Wofi
 
 ## Install swww (for wallpapers) and hyprshot (to take screenshots):
-Please see the installation instructions for your distributions.
+See the installation instructions for your distributions.
