@@ -14,6 +14,7 @@
 - Hyprland
 - Alacritty
 - Wofi
+- Starship
 
 ## Install swww (for wallpapers) and hyprshot (to take screenshots):
 See the installation instructions for your distributions.
