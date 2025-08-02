@@ -12,6 +12,7 @@
 - Hyprland
 - Alacritty
 - Rofi
+- Fish (with fisher and tide)
 
 ## Install swww (for wallpapers) and hyprshot (to take screenshots):
 See the installation instructions for your distributions.
