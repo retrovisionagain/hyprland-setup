@@ -1,6 +1,4 @@
-<p align="center">
-  <h1>Gallery of all screenshots</h1>
-</p>
+<h1>Gallery of all screenshots</h1>
 
 ![Screenshot](https://github.com/retrovisionagain/hyprland-setup/blob/main/screenshots/new-not-busy-desktop.png)
 ![Screenshot](https://github.com/retrovisionagain/hyprland-setup/blob/main/screenshots/ev-of-artix.png)
